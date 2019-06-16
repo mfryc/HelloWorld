@@ -1,7 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        print("Hello World!");
+        String localMessage = "Hello World!";
+
+        print(localMessage);
     }
 
     public static void print(String message){
